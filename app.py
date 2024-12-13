@@ -4,7 +4,7 @@ import numpy as np
 import pytesseract
 import re
 from datetime import datetime
-from ultralytics import YOLO
+# from ultralytics import YOLO
 import base64
 import pandas as pd
 import os
@@ -12,7 +12,7 @@ import os
 app = Flask(__name__)
 
 # Load YOLO model for item detection
-model = YOLO('best.pt')
+# model = YOLO('best.pt')
 
 # Regex for expiry date detection
 
