@@ -65,9 +65,9 @@ def calculate_days_remaining(expiry_date_str):
     days_remaining = (expiry_date - current_date).days
     return "Expired" if days_remaining < 0 else days_remaining
 
-@app.route('/')
-def index():
-    return render_template('index.html')
+# @app.route('/')
+# def index():
+#     return render_template('index.html')
 
 @app.route('/expiry_detection')
 def expiry_detection():
